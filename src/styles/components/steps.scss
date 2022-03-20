@@ -1,0 +1,44 @@
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step__item {
+    width: rem(610px);
+    height: rem(502px);
+    border-radius: rem(20px);
+    margin-right: rem(20px);
+    margin-bottom: rem(20px);
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-left: rem(64px);
+    padding-top: rem(24px);
+}
+
+.step__number {
+    padding-left: 434px;
+}
+
+.step__number-value {
+    font-family: Gilroy;
+    font-size: rem(25px);
+    position: absolute;
+}
+
+.step__image-wrapper {
+    margin-bottom: rem(20px);
+}
+
+.step__title {
+    font-family: Gilroy;
+    font-size: 20px;
+    margin-bottom: rem(14px);
+}
+
+.step___title-desc {
+    width: 80%;
+    color: #323340;
+    font-size: 16px;
+    line-height: 1.5;
+}

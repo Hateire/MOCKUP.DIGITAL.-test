@@ -1,0 +1,19 @@
+{
+    "name": "mockup.digital.-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "gulp": "gulp"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-pug": "^5.0.0"
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    }
+}

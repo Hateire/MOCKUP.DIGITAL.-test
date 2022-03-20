@@ -1,0 +1,190 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="./styles/main.css")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css")
+        title Оптимизация структуры холдинга
+    body 
+        .wrapper
+            .maincontent
+                section.hero
+                    .container.hero__container
+                        .hero__title-section
+                            h1.hero__main-title В результате Вы получаете:
+                        .hero__feature-section
+                            ul.features 
+                                li.features__item 
+                                    .feature__image
+                                        .feature__image-wrapper
+                                            |
+                                            |
+                                            img.feature__image(src="./img/benefit-1.png")
+                                            |
+                                            |
+                                        a.feature__loupe-link(href="#")
+                                            |
+                                            |
+                                            img.feature__loupe-icon(src="./img/lens.svg")
+                                    .feature__number 1
+                                    .feature__title Защиту активов от рисков банкротства или захвата
+                                    .feature__title-desc Определим оптимальную структуру холдинга. Поможем переоформить активы и обязательства между новыми и существующими юрлицами холдинга, чтобы исключить риск потери активов.
+                                li.features__item 
+                                    .feature__image 
+                                        .feature__image-wrapper
+                                            |
+                                            |
+                                            img.feature__image(src="./img/benefit-2.png")
+                                            |
+                                            |
+                                        a.feature__loupe-link(href="#")
+                                            |
+                                            |
+                                            img.feature__loupe-icon(src="./img/lens.svg")
+                                    .feature__number 2     
+                                    .feature__title Повышение управляемости и контроля в холдинге
+                                    .feature__title-desc Поможем выстроить полный контроль расходов и поступлений с точным "маршрутом" движения товаров и денег внутри холдинга. Определим "правила игры" для отдельных компаний холдинга, их показатели и функции, чтобы упростить управление и контроль холдинга.
+                                li.features__item
+                                    .feature__image
+                                        .feature__image-wrapper
+                                            |
+                                            |
+                                            img.feature__image(src="./img/benefit-3.png")
+                                            |
+                                            |
+                                        a.feature__loupe-link(href="#")
+                                            |
+                                            |
+                                            img.feature__loupe-icon(src="./img/lens.svg")
+                                    .feature__number 3
+                                    .feature__title Снижение затрат в т.ч. налога на прибыль и НДС
+                                    .feature__title-desc Определим один центр прибыли или один или несколько центров расходов, чтобы сократить НДС и налог на прибыль. А за счет централизации функций и упрощения управления уменьшим операционные расходы.
+                section.problems
+                    .container.problems__container
+                        .problems__title-section 
+                            h1.problems__main-title Какие проблемы мы решаем
+                        .problems__benefit-section
+                            ul.benefits 
+                                li.benefits__item.benefit__color-1
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Резко вырастают налоги, или налоговая предъявляет претензии и штрафы
+                                li.benefits__item.benefit__color-2
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Реальный риск потери активов из-за банкротства или враждебного поглощения одной или нескольких компаний внутри холдинга
+                                li.benefits__item.benefit__color-3
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Нет ясности в прибыли холдинга в целом и отдельных компаний, непрозрачное движение денег и материальных ценностей между компаниями группы
+                                li.benefits__item.benefit__color-4
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")         
+                                    .benefit__desc Слишком много активов и денег в одной компании, что ставит под удар всю группу в случае неплатежей клиентов или блокировки счетов по этой компании.
+                            ul.benefits
+                                li.benefits__item.benefit__color-5
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Слишком большой налог на прибыль и НДС, потому что каждая компания группы самостоятельно реализует свою продукцию и услуги
+                                li.benefits__item.benefit__color-6
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Слишком много денег "замораживаются" в запасах сырья и расходных материалах, потому что каждая компания группы самостоятельно закупает у поставщиков
+                                li.benefits__item.benefit__color-7
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Высокие расходы на управление, потому что внутри холдинга слишком большой поток операций и документов, для обработки которых нужны новые люди и софт
+                                li.benefits__item.benefit__color-8
+                                    .benefit__image-wrapper 
+                                        |
+                                        |
+                                        img.benefit__image(src="./img/tick.png")
+                                    .benefit__desc Непонятно, как правильно распределить активы внутри группы и между соучредителями, чтобы получать кредиты на рост бизнеса
+                            .benefits__slider
+                                button.benefits__slider-button.benefits__slider-button--prev
+                                    |
+                                    |
+                                    img.slider__icon(src="./img/arrow-prew.svg")
+                                button.benefits__slider-button.benefits__slider-button--next
+                                    |
+                                    |
+                                    img.slider__icon(src="./img/arrow-next.svg")
+                section.how
+                    .container.how__container 
+                        .how__title-section 
+                            h1.how__main-title Как мы это делаем
+                        .how__steps-section 
+                            ul.steps
+                                li.step__item.step
+                                    .step__number
+                                        h3.step__number-value ШАГ 1
+                                    .step__image-wrapper
+                                        |
+                                        |
+                                        img.step__image(src="./img/step-1.png")
+                                    .step__title Бесплатная консультация
+                                    .step___title-desc Уточняем задачу, отвечаем на Ваши вопросы, присылаем предложение по Вашему проекту.
+                                li.step__item.step
+                                    .step__number
+                                        h3.step__number-value ШАГ 2
+                                    .step__image-wrapper
+                                        |
+                                        |
+                                        img.step__image(src="./img/step-2.png")
+                                    .step__title Подписываем договор
+                                    .step___title-desc В договоре фиксируем неразглашение конфиденциальных данных, условия работы, результат, сроки, нашу ответственность за результат и гарантии качества
+                                li.step__item.step
+                                    .step__number
+                                        h3.step__number-value ШАГ 3
+                                    .step__image-wrapper
+                                        |
+                                        |
+                                        img.step__image(src="./img/step-3.png")
+                                    .step__title Вырабатываем решение
+                                    .step___title-desc Изучаем документы и бухгалтерские регистры, строим структуру владения активами и налогообложения. При необходимости встречаемся или созваниваемся. Создаем новую договорную цепочку владения активами; новую систему отношений с контрагентами; рассчитываем новые налоги.
+                                li.step__item.step
+                                    .step__number
+                                        h3.step__number-value ШАГ 4
+                                    .step__image-wrapper
+                                        |
+                                        |
+                                        img.step__image(src="./img/step-4.png")
+                                    .step__title Презентация решения
+                                    .step___title-desc Показываем слабые места в структуре владения, налогообложения и управления. Предлагаем решение по оптимизации. Предоставляем пошаговый план оптимизации с подробной аналитической запиской.
+                                li.step__item.step
+                                    .step__number
+                                        h3.step__number-value ШАГ 5
+                                    .step__image-wrapper
+                                        |
+                                        |
+                                        img.step__image(src="./img/step-5.png")
+                                    .step__title Сопровождение оптимизации
+                                    .step___title-desc Помогаем правильно переоформить документы, отвечаем на вопросы. Если включается Ваш юрист, консультируем его и проверяем правильность оформления документов.
+                                li.step__item.step
+                                    .step__number
+                                        h3.step__number-value ШАГ 6
+                                    .step__image-wrapper
+                                        |
+                                        |
+                                        img.step__image(src="./img/step-6.png")
+                                    .step__title Финансовый результат 
+                                    .step___title-desc Налоги и штрафы уменьшаются уже в текущем отчетном периоде, так же как и риск потери активов из-за банкротства, рейдеров или вышедшего из-под контроля директора.
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer")
+        script(src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js")
+        script(src="./js/benefits-slider.js")

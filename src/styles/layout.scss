@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: local('Pragmatica Light'), local('Pragmatica-Light'),
+        url('../fonts/Pragmatica-Light.woff2') format('woff2'),
+        url('../fonts/Pragmatica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+html {
+    font-size: $baseFontSize;
+
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+
+    @include phones {
+        font-size: 2.25vmax;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: $baseFontSize;
+    font-family: "Pragmatica", Arial, sans-serif;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: rem(1280px);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
