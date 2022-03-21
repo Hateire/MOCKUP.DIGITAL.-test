@@ -121,6 +121,11 @@ img {
     overflow-x: auto;
   }
 }
+@media screen and (max-width: 376px) {
+  .features {
+    overflow: unset;
+  }
+}
 
 .features__item {
   display: -webkit-box;
