@@ -5,6 +5,10 @@
     @include tablets {
         overflow-x: auto;
     }
+
+    @include phones {
+        overflow: unset;
+    }
 }
 
 .features__item {
