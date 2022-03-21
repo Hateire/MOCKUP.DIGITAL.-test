@@ -15,6 +15,15 @@ html(lang="ru")
                         .hero__title-section
                             h1.hero__main-title В результате Вы получаете:
                         .hero__feature-section
+                            .features__slider
+                                button.features__slider-button.features__slider-button--prev
+                                    |
+                                    |
+                                    img.slider__icon(src="./img/arrow-prev.svg")
+                                button.features__slider-button.features__slider-button--next
+                                    |
+                                    |
+                                    img.slider__icon(src="./img/arrow-next.svg")
                             ul.features 
                                 li.features__item 
                                     .feature__image
@@ -120,7 +129,7 @@ html(lang="ru")
                                 button.benefits__slider-button.benefits__slider-button--prev
                                     |
                                     |
-                                    img.slider__icon(src="./img/arrow-prew.svg")
+                                    img.slider__icon(src="./img/arrow-prev.svg")
                                 button.benefits__slider-button.benefits__slider-button--next
                                     |
                                     |
@@ -187,4 +196,5 @@ html(lang="ru")
                                     .step___title-desc Налоги и штрафы уменьшаются уже в текущем отчетном периоде, так же как и риск потери активов из-за банкротства, рейдеров или вышедшего из-под контроля директора.
         script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer")
         script(src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js")
-        script(src="./js/benefits-slider.js")
+        //- script(src="./js/benefits-slider.js")
+        script(src="./js/features-slider.js")

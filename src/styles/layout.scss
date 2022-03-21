@@ -43,9 +43,23 @@ body {
     background: #E5E5E5;
 }
 
+.wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
 .container {
-    max-width: rem(1280px);
+    width: rem(1260px);
     margin: 0 auto;
+
+    @include tablets {
+        width: rem(768px);
+    }
+
+    @include phones {
+        width: rem(375px);
+    }
 }
 
 h1,

@@ -1,6 +1,10 @@
 .features {
     display: flex;
     justify-content: space-between;
+
+    @include tablets {
+        overflow-x: auto;
+    }
 }
 
 .features__item {
@@ -12,6 +16,12 @@
     margin-right: rem(20px);
     border-radius: rem(20px);
     background: #FFFFFF;
+
+    @include phones {
+        height: rem(550px);
+        width: rem(380px);
+        padding: rem(13px);
+    }
 }
 
 .feature__image-wrapper {
@@ -58,4 +68,40 @@
     font-size: rem(14px);
     width: 84%;
     line-height: rem(24px);
+}
+
+.features__slider {
+    width: 363px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 6%;
+}
+
+.features__slider-button {
+    display: none;
+    border: 0;
+    background: transparent;
+
+    @include tablets {
+        display: none;
+    }
+
+    @include phones {
+        display: flex;
+        position: fixed;
+        left: 231px;
+        top: 146px;
+        z-index: 20;
+
+        &--next {
+            left: 325px;
+            top: 190px;
+        }
+
+        &--prev {
+            left: 32px;
+            top: 190px;
+        }
+    }
 }
